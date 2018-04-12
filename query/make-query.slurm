@@ -1,5 +1,6 @@
 #!/bin/bash --login
 #SBATCH --reservation=courseq
+#SBATCH --partition=gpuq
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:4
 #SBATCH --constraint=p100
